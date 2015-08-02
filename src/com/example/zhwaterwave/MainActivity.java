@@ -8,7 +8,7 @@ import android.view.Menu;
  * com.example.zhwaterwave.ZHwaterWave
  * 
  * @author zenghui <br/>
- *         create at 2015-6-6 下午8:08:42
+ *         create at 2015-6-6 下午8:06:32
  */
 public class MainActivity extends Activity {
 

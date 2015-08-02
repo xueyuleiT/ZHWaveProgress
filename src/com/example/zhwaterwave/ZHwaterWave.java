@@ -192,10 +192,6 @@ public class ZHwaterWave extends View {
             levelLine += speed;
             sX += moveSpeed;
 
-            if (levelLine <= 600) {
-                speed = 0;
-            }
-
             if (sX % 360 == 0) {
                 sX = sX % 180;
             }
@@ -300,7 +296,7 @@ public class ZHwaterWave extends View {
             if (moveSpeed == 0) {
                 moveSpeed = 1.2f;
             }
-            levelLine = (getHeight() / 2 + cycleR + paintW);
+            levelLine = (getHeight() / 2 + cycleR);
             y = levelLine;
             speed = -1;
             path = new Path();
